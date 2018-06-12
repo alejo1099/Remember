@@ -22,19 +22,14 @@ public class ElegirNivel : MonoBehaviour
         objMenuPrincipal.SetActive(true);
     }
 
-    public void IrTutorial()
+    public void IrNivelUno()
     {
         SceneManager.LoadScene(1);
     }
 
-    public void IrNivelUno()
-    {
-        SceneManager.LoadScene(2);
-    }
-
     public void IrNivelDos()
     {
-        print(2);
+        SceneManager.LoadScene(2);
     }
 
     public void IrNivelTres()
@@ -42,7 +37,7 @@ public class ElegirNivel : MonoBehaviour
         print(3);
     }
 
-    public void IrNivelcuatro()
+    public void IrNivelCuatro()
     {
         print(4);
     }
@@ -56,10 +51,17 @@ public class ElegirNivel : MonoBehaviour
     {
         print(6);
     }
+
     public void IrNivelSiete()
     {
         print(7);
     }
+
+    public void IrNivelOcho()
+    {
+        print(8);
+    }
+
     public void ExitApp()
     {
         Application.Quit();

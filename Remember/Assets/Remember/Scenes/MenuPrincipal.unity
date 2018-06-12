@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 238264265}
   - component: {fileID: 238264264}
   m_Layer: 5
-  m_Name: Nivel 1
+  m_Name: Nivel 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -721,7 +721,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 804032070}
-        m_MethodName: IrNivelUno
+        m_MethodName: IrNivelDos
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 264752604}
   - component: {fileID: 264752603}
   m_Layer: 5
-  m_Name: Nivel 4
+  m_Name: Nivel 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -843,7 +843,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 804032070}
-        m_MethodName: IrNivelcuatro
+        m_MethodName: IrNivelCinco
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1139,7 +1139,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Nivel 1
+  m_Text: Nivel 2
 --- !u!222 &366055144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1306,7 +1306,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Nivel 3
+  m_Text: Nivel 4
 --- !u!222 &507165417
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1587,7 +1587,7 @@ GameObject:
   - component: {fileID: 579731870}
   - component: {fileID: 579731869}
   m_Layer: 5
-  m_Name: Nivel 5
+  m_Name: Nivel 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1652,7 +1652,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 804032070}
-        m_MethodName: IrNivelCinco
+        m_MethodName: IrNivelSeis
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1752,7 +1752,6 @@ GameObject:
   m_Component:
   - component: {fileID: 598339668}
   - component: {fileID: 598339667}
-  - component: {fileID: 598339666}
   - component: {fileID: 598339665}
   - component: {fileID: 598339664}
   - component: {fileID: 598339669}
@@ -1771,13 +1770,6 @@ AudioListener:
   m_GameObject: {fileID: 598339663}
   m_Enabled: 1
 --- !u!124 &598339665
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 598339663}
-  m_Enabled: 1
---- !u!92 &598339666
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -6911,7 +6903,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Nivel 6
+  m_Text: Nivel 7
 --- !u!222 &764525908
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7108,7 +7100,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Nivel 4
+  m_Text: Nivel 5
 --- !u!222 &919776921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7303,7 +7295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Tutorial
+  m_Text: Nivel 1
 --- !u!222 &944907499
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7381,7 +7373,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Nivel 5
+  m_Text: Nivel 6
 --- !u!222 &1115316944
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7627,7 +7619,7 @@ GameObject:
   - component: {fileID: 1264128064}
   - component: {fileID: 1264128063}
   m_Layer: 5
-  m_Name: Tutorial
+  m_Name: Nivel 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7692,7 +7684,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 804032070}
-        m_MethodName: IrTutorial
+        m_MethodName: IrNivelUno
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7795,7 +7787,7 @@ GameObject:
   - component: {fileID: 1290461798}
   - component: {fileID: 1290461797}
   m_Layer: 5
-  m_Name: Nivel 3
+  m_Name: Nivel 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7860,7 +7852,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 804032070}
-        m_MethodName: IrNivelTres
+        m_MethodName: IrNivelCuatro
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8292,7 +8284,7 @@ GameObject:
   - component: {fileID: 1433847939}
   - component: {fileID: 1433847938}
   m_Layer: 5
-  m_Name: Nivel 7
+  m_Name: Nivel 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8357,7 +8349,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 804032070}
-        m_MethodName: IrNivelSiete
+        m_MethodName: IrNivelOcho
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8478,7 +8470,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Nivel 7
+  m_Text: Nivel 8
 --- !u!222 &1544332518
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8502,7 +8494,7 @@ GameObject:
   - component: {fileID: 1593303642}
   - component: {fileID: 1593303641}
   m_Layer: 5
-  m_Name: Nivel 2
+  m_Name: Nivel 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8567,7 +8559,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 804032070}
-        m_MethodName: IrNivelDos
+        m_MethodName: IrNivelTres
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13498,7 +13490,7 @@ GameObject:
   - component: {fileID: 1752501899}
   - component: {fileID: 1752501898}
   m_Layer: 5
-  m_Name: Nivel 6
+  m_Name: Nivel 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13563,7 +13555,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 804032070}
-        m_MethodName: IrNivelSeis
+        m_MethodName: IrNivelSiete
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13992,7 +13984,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Nivel 2
+  m_Text: Nivel 3
 --- !u!222 &1877955449
 CanvasRenderer:
   m_ObjectHideFlags: 0
